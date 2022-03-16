@@ -10,6 +10,7 @@ function preload() {
 // you can link to an image on your github account
   img = loadImage('https://pnwin.github.io/diy/images/brush.png');
   img2 = loadImage('https://c.tenor.com/uj4Cnt7RVE0AAAAM/fatdog-dog.gif');
+  img3 = loadImage('https://pnwin.github.io/diy/images/litwick.png');
 }
 
 function setup() {
@@ -106,8 +107,11 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 //img2 tool
      } else if (toolChoice == 'h' || toolChoice == 'H') { // h places the image we pre-loaded
     image(img2, mouseX, mouseY,200,200);
-  }
 
+//img3 tool
+     } else if (toolChoice == 'j' || toolChoice == 'J') { // j places the image we pre-loaded
+    image(img3, mouseX, mouseY,100,100);
+     } 
 }
 
 function testbox(r, g, b) {
