@@ -6,9 +6,10 @@ var lastscreenshot=61; // last screenshot never taken
 
 function preload() {
 // preload() runs once, it may make you wait
-//  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
+//  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js 2
 // you can link to an image on your github account
   img = loadImage('https://pnwin.github.io/diy/images/brush.png');
+  img2 = loadImage('https://c.tenor.com/uj4Cnt7RVE0AAAAM/fatdog-dog.gif');
 }
 
 function setup() {
@@ -101,6 +102,10 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
     blendMode(DARKEST)
     image(img, mouseX-50, mouseY-50,50,50);
+    
+//img2 tool
+     } else if (toolChoice == 'h' || toolChoice == 'H') { // h places the image we pre-loaded
+    image(img2, mouseX, mouseY,200,200);
   }
 
 }
