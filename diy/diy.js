@@ -111,7 +111,8 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 
 //img3 tool
      } else if (toolChoice == 'j' || toolChoice == 'J') { // j places the image we pre-loaded
-    image(img3, mouseX, mouseY,100,100);
+       filter(BLUR,6)
+    image(img3, mouseX, mouseY,86,144);
      } 
 }
 
