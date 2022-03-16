@@ -106,6 +106,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     
 //img2 tool
      } else if (toolChoice == 'h' || toolChoice == 'H') { // h places the image we pre-loaded
+    blendMoe(NORMAL)
     image(img2, mouseX, mouseY,200,200);
 
 //img3 tool
