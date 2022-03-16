@@ -8,7 +8,7 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://pnwin.github.io/diy/images/sauce.png');
+  img = loadImage('https://pnwin.github.io/diy/images/brush.png');
 }
 
 function setup() {
@@ -47,9 +47,8 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
     
 //Hotkey 2
-    stroke(1)
-    strokeWeight(1)
-    fill(1,1,1)
+    noStroke()
+    fill(0,0,0,10)
  } else if (toolChoice == '2') {
 
     var weight = dist(mouseX, mouseY, pmouseX, pmouseY);
@@ -97,12 +96,15 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
     rect(mouseX, mouseY, 200, 150);
+
+//img tool  
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
-    image(img, mouseX, mouseY);
-    
+    blendMode(OVERLAY)
+    image(img, mouseX-100, mouseY-100);
   }
- }
- 
+
+
+
 function testbox(r, g, b) {
 // this is a test function that will show you how you can put your own functions into the sketch
   x = mouseX;
