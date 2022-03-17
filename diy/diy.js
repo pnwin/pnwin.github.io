@@ -11,7 +11,7 @@ function preload() {
   img = loadImage('https://pnwin.github.io/diy/images/brush.png');
   img2 = loadImage('https://c.tenor.com/uj4Cnt7RVE0AAAAM/fatdog-dog.gif');
   img3 = loadImage('https://pnwin.github.io/diy/images/litwick.png');
-  img4 = loadImage('https://pnwin.github.io/diy/images/house.png')
+  img4 = loadImage('https://pnwin.github.io/diy/images/house.png');
 }
 
 function setup() {
