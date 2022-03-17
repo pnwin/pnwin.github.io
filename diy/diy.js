@@ -104,18 +104,18 @@ rect(mouseX,mouseY,400,200)
     
 //img2 tool
      } else if (toolChoice == 'h' || toolChoice == 'H') { // h places the image we pre-loaded
-    blendMoe(NORMAL)
+    blendMode(NORMAL)
     image(img2, mouseX, mouseY,200,200);
 
 //img3 tool
      } else if (toolChoice == 'j' || toolChoice == 'J') { // j places the image we pre-loaded
-       filter(BLUR,6)
+       filter(BLUR,3)
     image(img3, mouseX, mouseY,86,144);
        
 //img4 tool
      } else if (toolChoice == 'k' || toolChoice == 'K') { // k places the image we pre-loaded
-       filter(BLUR,6)
-    image(img4, mouseX, mouseY,100,100);
+       filter(BLUR,0)
+    image(img4, mouseX, mouseY,300,300);
      } 
 }
 
