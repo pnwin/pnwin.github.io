@@ -114,8 +114,8 @@ rect(mouseX,mouseY,400,200)
        
 //img4 tool
      } else if (toolChoice == 'k' || toolChoice == 'K') { // k places the image we pre-loaded
-       filter(BLUR,0);
-    image(img4, mouseX, mouseY,400,300);
+       filter(BLUR,0)
+    image(img4, mouseX, mouseY,400,400);
      } 
 }
 
