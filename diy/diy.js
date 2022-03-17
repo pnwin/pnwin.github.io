@@ -11,11 +11,12 @@ function preload() {
   img = loadImage('https://pnwin.github.io/diy/images/brush.png');
   img2 = loadImage('https://c.tenor.com/uj4Cnt7RVE0AAAAM/fatdog-dog.gif');
   img3 = loadImage('https://pnwin.github.io/diy/images/litwick.png');
+  img4 = loadImage('https://pnwin.github.io/diy/images/hosue.png')
 }
 
 function setup() {
 createCanvas(600, 600);  // canvas size
-background(255);   // use our background screen color
+background(150,220,2255);   // use our background screen color
 
 }
 
@@ -43,26 +44,23 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
 
   //Hotkey 1
   if (toolChoice == '1' ) {  
-    stroke(150,220,255);
+    stroke(255,255,255,100);
    
-   strokeWeight(5)
+   strokeWeight(100)
     line(mouseX, mouseY, pmouseX, pmouseY);
     
 //Hotkey 2
     noStroke()
-    fill(0,0,0,10)
+    fill(0,150,0)
  } else if (toolChoice == '2') {
-
-    var weight = dist(mouseX, mouseY, pmouseX, pmouseY);
- strokeWeight(1);
- ellipse(mouseX, mouseY, pmouseX-200, pmouseY-26);
+rect(mouseX,mouseY,400,200)
 
    
 
 //Hotkey 3
  } else if (toolChoice == '3') {
 
-    stroke(300, 100, 0, 80);
+    stroke(0, 100, 0, 80);
    strokeWeight(20)
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '4') {
@@ -113,6 +111,11 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
      } else if (toolChoice == 'j' || toolChoice == 'J') { // j places the image we pre-loaded
        filter(BLUR,6)
     image(img3, mouseX, mouseY,86,144);
+       
+//img4 tool
+     } else if (toolChoice == 'k' || toolChoice == 'K') { // k places the image we pre-loaded
+       filter(BLUR,6)
+    image(img4, mouseX, mouseY,100,100);
      } 
 }
 
