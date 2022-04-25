@@ -10,39 +10,94 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <html>
-
+	  
+<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="Powell Nguyen" content="width=device-width, initial-scale=1.0">
 
-	
 
-	<style> {
- 	
-}
-</style>
+<style class=rounded>	
+		  /* Image Columns */
+        
+        .col1 {
+            background-image: url("images/glitch.jpg");
+            background-repeat:none;
+            background-size:cover;
+        }
+        .col2 {
+            background-image: url("images/meme.png");
+            background-repeat:none;
+            background-size:cover;
+        }
+        .col3 {
+            background-image: url("images/self.png");
+            background-repeat:none;
+            background-size:cover;
+        }
+	
+	.col4 {
+            background-image: url("images/net.png");
+            background-repeat:none;
+            background-size:cover;
+        }
+	
+	.col5 {
+            background-image: url("images/setup.png");
+            background-repeat:none;
+            background-size:cover;
+        }
+       
+	.col6 {
+            background-image: url("images/Double8x8.jpeg");
+            background-repeat:none;
+            background-size:cover;
+        }
+	
+        /* Image To Text On Hover */
+        
+        .hovtxt {
+            background:#FFFFFF;
+            opacity:0;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+            height:300px;   
+        }
+        
+         .hovtxt:hover {
+            opacity:1;
+        }
+		
+	</style>
+
+<style>body {font-family: 'Comfortaa';font-size: 15px;}</style>
 	
 		<style> h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}</style>
 		<link href="file:///C|/Users/nguye/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam44CD.tmp/css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <div class="header">
+
 	
- <h1> 
-	<a href="index.html">
-	<img src=images/Sig.png width=200 height=100/> </h1>
+	<h1> <a href="index.html"></a> <img src="images/Sig.png" width="150" height="70" hspace="20" vspace="20"/> </h1>
 	
 </div>
 
-<body>
-<ul class="nav nav-tabs">
-	  <li class="nav-item"> <a class="nav-link" href="glitch.html">Glitch&nbsp;</a> </li>
-	  <li class="nav-item"> <a class="nav-link" href="meme.html">Meme Mashup&nbsp;</a> </li>
-	<li class="nav-item"> <a class="nav-link" href="p5js.html">P5js&nbsp;</a> </li>
-	 </div>
-      </li>
 
+<body>
+	
+<body>
+<ul class="nav justify-content-center">	
+<ul class="nav nav-tabs">
+<li class="nav-item"> <a class="nav-link" href="glitch.html">Glitch</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="meme.html">Meme Mashup</a> </li>
+	<li class="nav-item"> <a class="nav-link" href="p5js.html">P5js&nbsp;</a> </li>
+	<li class="nav-item"> <a class="nav-link" href="net.html">Net Art&nbsp;</a> </li>
+	<li class="nav-item"> <a class="nav-link" href="diy.html">DIY Photoshop&nbsp;</a> </li>
+	<li class="nav-item"> <a class="nav-link" href="projects.html">Artwork&nbsp;</a> </li>
+	<li class="nav-item"> <a class="nav-link" href="about.html">About&nbsp;</a> </li>
+	</ul>
+  </a> </li>
 </ul>
-	<div>&nbsp;</div>
 <style>
 	img {
   display: block;
@@ -50,21 +105,79 @@ div {text-align: center;}</style>
   margin-right: auto;
 }
 	</style>
-</a>
-    <script src="file:///C|/Users/nguye/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam44CD.tmp/js/jquery-3.4.1.min.js"></script>
+
+<script src="file:///C|/Users/nguye/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam44CD.tmp/js/jquery-3.4.1.min.js"></script>
 <script src="file:///C|/Users/nguye/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam44CD.tmp/js/popper.min.js"></script>
 <script src="file:///C|/Users/nguye/AppData/Roaming/Adobe/Dreamweaver 2021/en_US/Configuration/Temp/Assets/eam44CD.tmp/js/bootstrap-4.4.1.js"></script>
-</body>
 
-	<body>
-		
-	<p><img src=images/Double8x8.jpeg width=500 height=500 class="rounded-circle"/></p>
+	<div> ‎  </div>	
+		<style>/* Container holding the image and the text */
+	
+	div {
+  font-size: 60px;
+}
+			
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+		</style>
+	
+	<style>
+	mark {
+  background-color: black;
+  color: white;
+}
+	</style>
+	
+		<div class="container">
+  <img src="images/personal/2.jpeg" class="rounded-circle" alt="Home" style="width:100%;">
+  <div class="centered"><mark> Hi there. Welcome. </mark></div>
+</div>
 		
 		<h1></h1>
 
-	</style>
+	
 
     	
-	</body>
+</body>
 	
 </html>
