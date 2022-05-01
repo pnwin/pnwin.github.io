@@ -1,4 +1,3 @@
-var i = 0
 var ballx = 450;
 var bally = 450;
 var ballSize = 150;
