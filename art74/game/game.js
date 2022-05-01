@@ -62,7 +62,7 @@ if(gameState =="Win"){
     background(img8);
   win();
 } 
-  text(("Score: " + score), width/2, 40);
+  text(("Score: " + score), width/2, 54);
 } // end of draw
 
 function beginGame()
