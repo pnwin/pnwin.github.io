@@ -15,23 +15,23 @@ function setup() {
 } // end setup
 
 function preload() {
-  myFont = loadFont('https://pnwin.github.io/game/pixel.otf');
-  img =   loadImage('https://pnwin.github.io/game/images/pokeball.png');
-  img2 =  loadImage('https://pnwin.github.io/game/images/forest.jpg');
-  img3 =  loadImage('https://pnwin.github.io/game/images/litwick.png');
-  img4 =  loadImage('https://pnwin.github.io/game/images/ditto.png');
-  img5 =  loadImage('https://pnwin.github.io/game/images/gengar.png');
-  img6 =  loadImage('https://pnwin.github.io/game/images/textbox.png')
-  img7 =  loadImage('https://pnwin.github.io/game/images/kanto.jpg')
-  img8 =  loadImage('https://pnwin.github.io/game/images/victory.png')
-  img9 =  loadImage('https://pnwin.github.io/game/images/togetic.png')
-  img10 = loadImage('https://pnwin.github.io/game/images/win.png')
-  img11 = loadImage('https://pnwin.github.io/game/images/poke1.gif')
-  img12 = loadImage('https://pnwin.github.io/game/images/poke2.gif')
-  img13 = loadImage('https://pnwin.github.io/game/images/poke3.gif')
-  img14 = loadImage('https://pnwin.github.io/game/images/poke4.gif')
-  img15 = loadImage('https://pnwin.github.io/game/images/pika.png')
-  img16 = loadImage('https://pnwin.github.io/game/images/start.png')
+  myFont = loadFont('https://pnwin.github.io/art74/game/pixel.otf');
+  img =   loadImage('https://pnwin.github.io/art74/game/images/pokeball.png');
+  img2 =  loadImage('https://pnwin.github.io/art74/game/images/forest.jpg');
+  img3 =  loadImage('https://pnwin.github.io/art74/game/images/litwick.png');
+  img4 =  loadImage('https://pnwin.github.io/art74/game/images/ditto.png');
+  img5 =  loadImage('https://pnwin.github.io/art74/game/images/gengar.png');
+  img6 =  loadImage('https://pnwin.github.io/art74/game/images/textbox.png')
+  img7 =  loadImage('https://pnwin.github.io/art74/game/images/kanto.jpg')
+  img8 =  loadImage('https://pnwin.github.io/art74/game/images/victory.png')
+  img9 =  loadImage('https://pnwin.github.io/art74/game/images/togetic.png')
+  img10 = loadImage('https://pnwin.github.io/art74/game/images/win.png')
+  img11 = loadImage('https://pnwin.github.io/art74/game/images/poke1.gif')
+  img12 = loadImage('https://pnwin.github.io/art74/game/images/poke2.gif')
+  img13 = loadImage('https://pnwin.github.io/art74/game/images/poke3.gif')
+  img14 = loadImage('https://pnwin.github.io/art74/game/images/poke4.gif')
+  img15 = loadImage('https://pnwin.github.io/art74/game/images/pika.png')
+  img16 = loadImage('https://pnwin.github.io/art74/game/images/start.png')
 
 }
 
